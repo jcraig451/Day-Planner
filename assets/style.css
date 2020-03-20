@@ -1,0 +1,77 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: black;
+  }
+ h3 {
+color: black;
+  }
+
+  h1 {
+    color: red;  
+  }
+  
+  .jumbotron {
+    text-align: center;
+    color: black;
+    border-radius: 0;
+    -moz-box-shadow:    inset 0 0 30px red;
+    -webkit-box-shadow: inset 0 0 30px red;
+    box-shadow:         inset 0 0 30px red;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .time-block{
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: red;
+    color: white;
+    width: 10%;
+    padding-left: 3%;
+    padding-top: 3%;
+  }
+  
+  .pastTime {
+    background-color: black;
+    color: white;
+  }
+  
+  .presTime {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .futTime {
+    background-color: #333131;
+    color: white;
+  }
+  
+  .saveBtn {
+    background-color: red;
+    color: white;
+    width: 10%;
+  }
+ 
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: black;
+    padding: 10px;
+    width: 80%;
+  }
